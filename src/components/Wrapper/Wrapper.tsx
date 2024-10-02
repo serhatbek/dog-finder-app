@@ -1,7 +1,7 @@
 import "./Wrapper.scss";
 
 const Wrapper = () => {
-  return <div>Wrapper</div>;
+  return <div className="content">Wrapper</div>;
 };
 
 export default Wrapper;
