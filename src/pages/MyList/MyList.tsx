@@ -1,3 +1,5 @@
+import "./MyList.scss";
+
 const MyList = () => {
   return <div>MyList</div>;
 };

@@ -1,3 +1,6 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Footer } from "./Footer/Footer";
+export { default as Wrapper } from "./Wrapper/Wrapper";
 export { default as Background } from "./Background/Background";
 export { default as CompareContainer } from "./CompareContainer/CompareContainer";
 export { default as Info } from "./Info/Info";

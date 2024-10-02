@@ -1,12 +1,16 @@
+import { Background, Footer, Navbar, Wrapper } from "./components";
 import "./scss/index.scss";
 
 function App() {
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="main-container">
+      <Background />
+      <div className="app">
+        <Navbar />
+        <Wrapper />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
