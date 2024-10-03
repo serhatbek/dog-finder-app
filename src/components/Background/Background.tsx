@@ -1,7 +1,7 @@
 import "./Background.scss";
 
-import pokeball1 from "../../../public/images/pokeball.png";
-import pokeball2 from "../../../public/images/pokeball2.png";
+import pokeball1 from "/images/pokeball.png";
+import pokeball2 from "/images/pokeball2.png";
 
 const Background = () => {
   return (

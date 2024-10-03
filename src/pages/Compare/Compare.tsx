@@ -1,7 +1,8 @@
+import { Wrapper } from "../../components";
 import "./Compare.scss";
 
 const Compare = () => {
   return <div>Compare</div>;
 };
 
-export default Compare;
+export default Wrapper(Compare);

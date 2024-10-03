@@ -1,7 +1,8 @@
+import { Wrapper } from "../../components";
 import "./Search.scss";
 
 const Search = () => {
   return <div>Search</div>;
 };
 
-export default Search;
+export default Wrapper(Search);
